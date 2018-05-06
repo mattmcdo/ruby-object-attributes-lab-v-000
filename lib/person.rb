@@ -11,3 +11,6 @@ class Person
   def job
     @job
 end
+end
+
+beyonce = Person.new
