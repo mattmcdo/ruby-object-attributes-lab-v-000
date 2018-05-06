@@ -1,21 +1,2 @@
-class Person
-  def name=(name)
-    @name = name
-  end
-  def name
-    @name
+def Person
 end
-def job=(job)
-  @job = job
-end
-def job
-  @job
-end
-end
-
-beyonce = Person.new
-beyonce.name = "Beyonce"
-beyonce.job = "Singer"
-
-puts beyonce.name
-puts beyonce.job
